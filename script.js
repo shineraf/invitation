@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function(){
   const first=s=>String(s||"").trim().split(/\s+/)[0];
 
   const config={
-    couple:{bride:"Sophia Martinez",groom:"Alexander Cruz"},
+    couple:{bride:"Jam",groom:"Froi"},
     weddingDate:"November 15, 2026 16:00:00",
     dateDisplay:"15 NOVEMBER 2026",
     venue:{
@@ -15,11 +15,16 @@ document.addEventListener("DOMContentLoaded", function(){
     },
     music:{enabled:true,file:"assets/music/wedding-song.mp3"},
     rsvp:{endpoint:""},
-    quote:{text:"Whatever our souls are made of, his and mine are the same."},
+    quote:{text:"And so, the adventure begins."},
     gallery:[
-      "assets/images/couple-cover.svg","assets/images/couple-01.svg","assets/images/couple-02.svg",
-      "assets/images/couple-03.svg","assets/images/couple-04.svg","assets/images/couple-05.svg",
-      "assets/images/couple-06.svg","assets/images/couple-07.svg"
+      "https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1800&q=88",
+      "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?auto=format&fit=crop&w=1200&q=88",
+      "https://images.unsplash.com/photo-1519225421980-715cb0215aed?auto=format&fit=crop&w=1200&q=88",
+      "https://images.unsplash.com/photo-1507504031003-b417219a0fde?auto=format&fit=crop&w=1800&q=88",
+      "https://images.unsplash.com/photo-1465495976277-4387d4b0e4a6?auto=format&fit=crop&w=1400&q=88",
+      "https://images.unsplash.com/photo-1478146896981-b80fe463b330?auto=format&fit=crop&w=1400&q=88",
+      "https://images.unsplash.com/photo-1520854221256-17451cc331bf?auto=format&fit=crop&w=1400&q=88",
+      "https://images.unsplash.com/photo-1606800052052-a08af7148866?auto=format&fit=crop&w=1400&q=88"
     ]
   };
 
